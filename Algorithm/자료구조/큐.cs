@@ -1,9 +1,16 @@
 using System.Collections.Generic;
 
-Queue<int> queue = new();
-
-var A = int.Parse(Console.ReadLine());
+namespace stack1
+{
+    class Program
+    {
+      static void Main(string[] args)
+      {
+                  
             Queue<int> queue = new();
+
+            var A = int.Parse(Console.ReadLine());
+            
             StringBuilder sw = new();
 
             for (int i = 0; i < A; i++)
@@ -63,3 +70,6 @@ var A = int.Parse(Console.ReadLine());
                         sw.Append(queue.??() + "\n");
                     }
                 }
+            }
+      }
+    }
