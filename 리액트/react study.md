@@ -31,7 +31,7 @@
 5. JSX
     -  JSX는 자바스크립트와 HTML을 동시에 사용하며, HTML에 자바스크립트의 변수들을 바로 사용할 수 있는 일종의 템플릿 언어이다.
      
-    ``` JavaScript
+``` JavaScript
     const App = () => {
   const hello = 'Hello world!';
   return <div>{hello}</div>;
