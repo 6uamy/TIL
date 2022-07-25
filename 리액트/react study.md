@@ -29,7 +29,14 @@
 3. 가상 DOM
 4. 라이프사이클 메서드
 5. JSX
-6. 단순 HTML 랜더링 그 이상의 아키텍처
+    -  JSX는 자바스크립트와 HTML을 동시에 사용하며, HTML에 자바스크립트의 변수들을 바로 사용할 수 있는 일종의 템플릿 언어이다.
+    ``` javascript
+    const App = () => {
+  const hello = 'Hello world!';
+  return <div>{hello}</div>;
+};
+```
+7. 단순 HTML 랜더링 그 이상의 아키텍처
 
 
 https://it-factory-with-taek.tistory.com/15
