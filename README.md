@@ -1,8 +1,8 @@
 # 📚 Today I Learned
 
-## 💡알고리즘 STUDY
+### 🔗 Algorithm
 - [그리디](https://github.com/6uamy/TIL/tree/main/Algorithm/%EA%B7%B8%EB%A6%AC%EB%94%94)
 - [자료구조](https://github.com/6uamy/TIL/tree/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
 
-## 💡리액트 STUDY
+### 🔗 React
 - [리액트의 기초](https://github.com/6uamy/TIL/tree/main/%EB%A6%AC%EC%95%A1%ED%8A%B8)
