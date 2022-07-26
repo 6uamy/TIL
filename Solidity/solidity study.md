@@ -46,7 +46,6 @@ DApp 개발자가 사람들이 DApp을 사용하는 것을 차단하거나 거�
 
 이에 반해 탈중앙화된 방식은 네트워크에 참여하는 모든 노드가 각각의 데이터베이스들을 계속해서 공유하고 갱신한다. 만약 한 노드의 데이터가 마비되고 공격받을지라도 데이터를 공유하고 있는 모든 노드가 대신하여 데이터를 제공할 수 있고 기존 중앙화 된 방식의 사이버 보안 문제를 막을 수 있을 것이다.
 
-[##_Image|kage@YDBK8/btrIei510vo/Kc9Mj1cEaAcuBY0KikZU30/img.png|CDM|1.3|{"originWidth":1280,"originHeight":328,"style":"alignCenter","width":551,"height":141,"caption":"이미지 참조:&amp;nbsp;https://m.upbitcare.com/academy/education/blockchain/239"}_##]
 
 **Remix IDE?**
 
