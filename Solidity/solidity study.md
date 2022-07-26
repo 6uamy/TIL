@@ -1,11 +1,11 @@
-유데미 강의를 들으며 배운 내용을 정리하고자 글을 작성합니다.
+### 유데미 강의를 들으며 배운 내용을 정리하고자 글을 작성합니다.
 
-\[강의 참고 Link\]
+### \[강의 참고 Link\]
 
 [https://www.udemy.com/course/complete-dapp-solidity-react/](https://www.udemy.com/course/complete-dapp-solidity-react/)
 
 
-**DApp이란?**
+### **DApp이란?**
 
 탈중앙화 애플리케이션(Decentralized Application)의 줄임말로 코드가 P2P(Peer-to-Peer) 위에서 작동하고,
 
