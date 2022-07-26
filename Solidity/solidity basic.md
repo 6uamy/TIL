@@ -29,10 +29,12 @@ bool switchON = true/false;
 ```solidity 
 contract contractName {
       // write all the code inside here - functions and its state
+      uint data;
       
       // set and get
       function set(type x) public/private {
             // function code here
+            data = x;
       }
       
       function get() public/private view returns (type) {
