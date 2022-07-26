@@ -16,7 +16,11 @@ contract contractName {
 }
 ```
 
-### Type 선언
+### Type변수 선언
 ```solidity 
-(dataType) data;
+    uint storeData;
+    string names;
+    bool switchON;
+    
+    ....
 ```
