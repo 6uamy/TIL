@@ -5,7 +5,7 @@
 [https://www.udemy.com/course/complete-dapp-solidity-react/](https://www.udemy.com/course/complete-dapp-solidity-react/)
 
 
-### **DApp이란?**
+### 1.DApp이란?
 
 탈중앙화 애플리케이션(Decentralized Application)의 줄임말로 코드가 P2P(Peer-to-Peer) 위에서 작동하고,
 
@@ -17,7 +17,7 @@ DApp은 스마트컨트랙트가 도입되면서 생겨났고, 스마트컨트�
 
 DApp들을 탄생시켰다.
 
-### **DApp의 특징**
+1-1**DApp의 특징**
 
 **\[투명성]** 
 
