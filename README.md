@@ -10,5 +10,5 @@
 
 ### 🔗 Solidity
 - [Solidity를 시작하기 전에](https://github.com/6uamy/TIL/tree/main/Solidity)
-- [Solidity의 기초](https://github.com/6uamy/TIL/tree/main/Solidity)
+- [Solidity의 기초](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20basic.md)
 - [스마트 계약 예제#1](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20Example%231.md)
