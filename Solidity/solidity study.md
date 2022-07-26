@@ -4,11 +4,6 @@
 
 [https://www.udemy.com/course/complete-dapp-solidity-react/](https://www.udemy.com/course/complete-dapp-solidity-react/)
 
- [【한글자막】 DApp 개발 완벽 마스터 : Solidity & React - 블록체인 개발
-
-DApp 개발 마스터하기: 스마트 계약 - Solidity, Web3, React, Mocha, 프론트엔드용 Master DApp Development - Smart Contracts - Solidity, We
-
-www.udemy.com](https://www.udemy.com/course/complete-dapp-solidity-react/)
 
 **DApp이란?**
 
@@ -57,9 +52,6 @@ DApp 개발자가 사람들이 DApp을 사용하는 것을 차단하거나 거�
 
 [https://remix.ethereum.org](https://remix.ethereum.org) 
 
- [Remix - Ethereum IDE
-
-remix.ethereum.org](https://remix.ethereum.org)
 
 리믹스는 스마트컨트랙트를 개발하기 위한 환경을 제공해준다.
 
