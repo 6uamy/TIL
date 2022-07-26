@@ -77,3 +77,4 @@ address payable[] familyWallets;
 ```solidity
 mapping(address => uint) inheritance;
 ```
+* mapping: 해당 값이 key-value값으로 저장된다.
