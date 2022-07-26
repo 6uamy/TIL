@@ -72,3 +72,8 @@ modifier onlyOwner {
 ```solidity
 address payable[] familyWallets;
 ```
+
+### mapping 선언
+```solidity
+mapping(address => uint) inheritance;
+```
