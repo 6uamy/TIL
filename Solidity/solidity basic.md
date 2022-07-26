@@ -46,3 +46,13 @@ contract contractName {
 * public: 얼마든지 계약 외부에서도 함수를 호출할 수 있게 해준다.
 * private: 계약 내부에서만 함수 호출이 가능하다.
 * view: 함수의 상태를 수정할 수 없다는 것을 알리는 전역 제어자(Global Modifier)이다.
+
+### constructor 함수 선언
+```solidity
+constructor() payable public {
+
+    }
+```
+
+* constructor: 스마트 계약이 배포될 때 호출되는 생성자 함수, 가시성(visibility)이 internal or public
+* payable: 이더(eth)를 주고 받기 위해 사용된다. 
