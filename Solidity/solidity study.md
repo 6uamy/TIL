@@ -40,6 +40,6 @@ DApp 개발자가 사람들이 DApp을 사용하는 것을 차단하거나 거�
 
 ### Remix IDE?
 
-[https://remix.ethereum.org](https://remix.ethereum.org) 
+[리믹스 IDE](https://remix.ethereum.org) 
 리믹스는 스마트컨트랙트를 개발하기 위한 환경을 제공해준다.
 
