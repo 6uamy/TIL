@@ -67,3 +67,8 @@ modifier onlyOwner {
 * modifier: 사전에 주어진 조건에 따라 함수의 동작을 변경시키기 위해 사용된다.
 * require: Solidity에서 사용되는 조건문같은 형식으로 require조건이 만족되어야 함수가 실행된다.
 * _; : 조건이 만족될시 함수를 계속해서 진행한다.(접근자에 대한 제어가 가능)
+
+### 배열 리스트 선언
+```solidity
+address payable[] familyWallets;
+```
