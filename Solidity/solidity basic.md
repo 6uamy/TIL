@@ -56,3 +56,14 @@ constructor() payable public {
 
 * constructor: 스마트 계약이 배포될 때 호출되는 생성자 함수, 가시성(visibility)이 internal or public
 * payable: 이더(eth)를 주고 받기 위해 사용된다. 
+
+### 제어자(modifier) 선언
+```solidity
+modifier onlyOwner {
+        require(msg.sender == owner);
+        _; 
+    }
+```
+* modifier: 사전에 주어진 조건에 따라 함수의 동작을 변경시키기 위해 사용된다.
+* require: Solidity에서 사용되는 조건문같은 형식으로 require조건이 만족되어야 함수가 실행된다.
+* _; : 조건이 만족될시 함수를 계속해서 진행한다.(접근자에 대한 제어가 가능)
