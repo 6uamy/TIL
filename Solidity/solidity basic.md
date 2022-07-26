@@ -31,7 +31,10 @@ contract contractName {
       // write all the code inside here - functions and its state
       
       // set and get
-      function set(type x) {
+      function set(type x) public/private {
             // function code here
       }
 ```
+
+* public: 얼마든지 계약 외부에서도 함수를 호출할 수 있게 해준다.
+* private: 계약 내부에서만 함수 호출이 가능하다.
