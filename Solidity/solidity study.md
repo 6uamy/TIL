@@ -5,7 +5,7 @@
 [https://www.udemy.com/course/complete-dapp-solidity-react/](https://www.udemy.com/course/complete-dapp-solidity-react/)
 
 
-### 1.DApp이란?
+### 1. DApp이란?
 
 탈중앙화 애플리케이션(Decentralized Application)의 줄임말로 코드가 P2P(Peer-to-Peer) 위에서 작동하고,
 
@@ -17,7 +17,7 @@ DApp은 스마트컨트랙트가 도입되면서 생겨났고, 스마트컨트�
 
 DApp들을 탄생시켰다.
 
-1.1DApp의 특징
+1.1 DApp의 특징
 
 **\[투명성]** 
 
@@ -34,7 +34,7 @@ DApp들을 탄생시켰다.
 불변성 기능은 또한 정부나 기타 외부 당사자가 분산 앱을 효과적으로 검열할 수 없음을 의미한다. 마찬가지로 블록체인의 개방형 특성은  
 DApp 개발자가 사람들이 DApp을 사용하는 것을 차단하거나 거래를 방해할 수 없음을 의미한다. 
 
-2.탈중앙화 vs 중앙화
+2. 탈중앙화 vs 중앙화
 
 기존 중앙화된 방식의 경우 특정 기관이나 기능을 통해 사용자의 데이터를 저장하고 관리하며 그 데이터들이 하나의
 
@@ -45,7 +45,7 @@ DApp 개발자가 사람들이 DApp을 사용하는 것을 차단하거나 거�
 이에 반해 탈중앙화된 방식은 네트워크에 참여하는 모든 노드가 각각의 데이터베이스들을 계속해서 공유하고 갱신한다. 만약 한 노드의 데이터가 마비되고 공격받을지라도 데이터를 공유하고 있는 모든 노드가 대신하여 데이터를 제공할 수 있고 기존 중앙화 된 방식의 사이버 보안 문제를 막을 수 있을 것이다.
 
 
-3.Remix IDE?
+3. Remix IDE?
 
 [https://remix.ethereum.org](https://remix.ethereum.org) 
 
