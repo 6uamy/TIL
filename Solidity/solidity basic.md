@@ -75,6 +75,32 @@ address payable[] familyWallets;
 
 ### mapping 선언
 ```solidity
+mapping(_KeyType => _ValueType);
+
 mapping(address => uint) inheritance;
 ```
-* mapping: 해당 값이 key-value값으로 저장된다.
+* mapping: 값이 key-value 쌍으로 구성된 해시 테이블을 생성한다.
+
+### address
+```solidity
+address wallet = 0x212...;
+```
+* address: Solidity에서 주소는 20byte 형식의 변수 타입이다.(ex. 이더리움 주소의 크기)
+
+### Solidity의 전역 변수
+|name|returns|
+|:---:|:---:|
+|blockhash|Hash of the given block|
+|block.coinbase (address payable)|Current block miner's address|
+|block.difficulty|Current block difficulty|
+|block.gaslimit|Current block gaslimit|
+|block.number|Current block number|
+|block.timestamp|Current block timestamp|
+|gasleft() returns|Remaining gas|
+|msg.data|Complete calldata|
+|msg.sender (address payable)|Sender of the message (current caller)|
+|msg.sig|First four bytes of the calldata|
+|msg.value|Number of wei sent with the message|
+|now|Current block timestamp|
+|tx.gasprice|Gas price of the transaction|
+|tx.origin|Sender of the transaction|
