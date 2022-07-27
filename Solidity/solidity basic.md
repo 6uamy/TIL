@@ -54,7 +54,7 @@ constructor() payable public {
     }
 ```
 
-* constructor: 스마트 계약이 배포될 때 호출되는 생성자 함수, 가시성(visibility)이 internal or public
+* constructor: 계약 생성 단계에서만 실행되고, 생성자가 없으면 계약은 계약 자체를 기본 생성자로 인식한다.
 * payable: 이더(eth)를 주고 받기 위해 사용된다. 
 
 ### 제어자(modifier) 선언
