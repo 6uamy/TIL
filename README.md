@@ -1,6 +1,6 @@
 # 📚 Today I Learned
 
-## [깃허브 Markdown 참고링크](https://github.com/jinkyukim-me/markdown_ko)
+### [깃허브 Markdown 참고링크](https://github.com/jinkyukim-me/markdown_ko)
 ### 🔗 Algorithm
 - [그리디](https://github.com/6uamy/TIL/tree/main/Algorithm/%EA%B7%B8%EB%A6%AC%EB%94%94)
 - [자료구조](https://github.com/6uamy/TIL/tree/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
