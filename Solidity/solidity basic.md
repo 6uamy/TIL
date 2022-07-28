@@ -87,6 +87,24 @@ address wallet = 0x212...;
 ```
 * address: Solidity에서 주소는 20byte 형식의 변수 타입이다.(ex. 이더리움 주소의 크기)
 
+### error, revert
+```solidity
+error insufficientBalance(uint requested, uint available);
+
+function send(address receiver, uint amount) public {
+        if(amount > balances[msg.sender])
+        revert insufficientBalance({
+            requested: amount,
+            available: balances[msg.sender]
+        });
+        balances[msg.sender] -= amount;
+        balances[receiver] += amount;
+    }
+```
+* error: Solidity에 오류가 있음을 알릴 수 있는 기능이다.
+* revert: 조건문이 참일시 해당 함수에 대한 트랜잭션이 발생하지 않도록 해주고 revert 키워드에 대한 오류 메세지를 전달한다.
+
+
 ### Solidity의 전역 변수
 |name|returns|
 |:---:|:---:|
