@@ -12,4 +12,4 @@
 - [Solidity를 시작하기 전에](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20study.md)
 - [Solidity의 기초](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20basic.md)
 - [스마트 계약 예제#1 유산 상속](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20Example%231.sol)
-- [스마트 계약 예제#2 토큰 배포, 전송](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20Example%231.sol)
+- [스마트 계약 예제#2 토큰 배포, 전송](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20Example%232.sol)
