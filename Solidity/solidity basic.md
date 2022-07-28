@@ -87,6 +87,13 @@ address wallet = 0x212...;
 ```
 * address: Solidity에서 주소는 20byte 형식의 변수 타입이다.(ex. 이더리움 주소의 크기)
 
+### event, emit
+```solidity
+event Sent(address from, address to, uint amount);
+emit Sent(msg.sender, receiver, amount);
+```
+* event: 이벤트 호출시 해당 인자 값들을 반환한다.
+* emit: 생성한 해당 이벤트를 발생시키기 위한 키워드
 ### error, revert
 ```solidity
 error insufficientBalance(uint requested, uint available);
