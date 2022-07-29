@@ -5,7 +5,8 @@
 [https://www.udemy.com/course/complete-dapp-solidity-react/](https://www.udemy.com/course/complete-dapp-solidity-react/)
 
 ## NFT?
-대체 불가능한 토큰을 말한다. 독특한 디지털 자산 ex. 예술작품, 아이템등을 디지털화해서 NFT로 대체불가능하게 발행
+대체 불가능한 토큰을 말한다. 독특한 디지털 자산 
+ex. 예술작품, 아이템등을 디지털화해서 NFT로 대체불가능하게 발행
 
 ## DApp이란?
 
