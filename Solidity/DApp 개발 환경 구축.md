@@ -19,5 +19,7 @@
 3. 아래와 같은 화면이 보이면 연결에 성공
 <img src= "https://user-images.githubusercontent.com/79950091/182310037-759685ce-6ab2-45f0-8209-b4943990d706.png" width="500" height="500">
 
+## Node.js > [설치경로](https://nodejs.org/ko/)
 
-
+* Node.js는 터미널에서 JavaScript를 실행할 수 있는 런타임 환경이다.
+* 터미널에서 JavaScript 코드를 실행할 수 있게 해주고 여러 명령어들을 사용해 다양한 행동을 할 수 있다.
