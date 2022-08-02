@@ -12,3 +12,7 @@
 
 1. 메타마스크에 가나슈를 설정하기 위해 Custom Rpc를 클릭
 ![image](https://user-images.githubusercontent.com/79950091/182308906-1ff0da1a-12ea-468d-92a8-36f9bce97937.png)
+2. 아래와 같이 가나슈 네트워크 추가에 필요한 정보 입력
+![image](https://user-images.githubusercontent.com/79950091/182309881-6a8001e6-0a2b-4bf0-94b8-0800d3849792.png)
+
+
