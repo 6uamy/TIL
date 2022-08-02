@@ -10,9 +10,11 @@
 
 ## 메타마스크와 가나슈 연결하기
 
-1. 메타마스크에 가나슈를 설정하기 위해 Custom Rpc를 클릭
-![image](https://user-images.githubusercontent.com/79950091/182308906-1ff0da1a-12ea-468d-92a8-36f9bce97937.png)
+1. 메타마스크에 가나슈를 설정하기 위해 네트워크 추가화면으로 이동
+![image](https://user-images.githubusercontent.com/79950091/182308906-1ff0da1a-12ea-468d-92a8-36f9bce97937.png){: width="100" height="100"}
 2. 아래와 같이 가나슈 네트워크 추가에 필요한 정보 입력
-![image](https://user-images.githubusercontent.com/79950091/182309881-6a8001e6-0a2b-4bf0-94b8-0800d3849792.png)
+![image](https://user-images.githubusercontent.com/79950091/182309881-6a8001e6-0a2b-4bf0-94b8-0800d3849792.png){: width="100" height="100"}
+3. 아래와 같은 화면이 보이면 연결에 성공
+![image](https://user-images.githubusercontent.com/79950091/182310037-759685ce-6ab2-45f0-8209-b4943990d706.png){: width="100" height="100"}
 
 
