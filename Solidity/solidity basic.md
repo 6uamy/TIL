@@ -129,3 +129,9 @@ function send(address receiver, uint amount) public {
 |now|Current block timestamp|
 |tx.gasprice|Gas price of the transaction|
 |tx.origin|Sender of the transaction|
+
+### Ether Converter
+
+|Wei|1000000000000000000|
+|Gwei|1000000000|
+|Ether|1|
