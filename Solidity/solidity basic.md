@@ -114,7 +114,7 @@ function send(address receiver, uint amount) public {
 
 ### Solidity의 전역 변수
 |name|returns|
-|:---:|:---:|
+|:---:|---:|
 |blockhash|Hash of the given block|
 |block.coinbase (address payable)|Current block miner's address|
 |block.difficulty|Current block difficulty|
