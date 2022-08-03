@@ -130,7 +130,7 @@ function send(address receiver, uint amount) public {
 |tx.gasprice|Gas price of the transaction|
 |tx.origin|Sender of the transaction|
 
-### Ether Converter [참고링크](https://www.eth-to-wei.com/?gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3mESg7wimLohoFF6dHA0ddZ2Ep7k6CqvizbqWp2dkPZVWDyA7L8-YAaAvogEALw_wcB)
+### Ether Converter > [참고링크](https://www.eth-to-wei.com/?gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3mESg7wimLohoFF6dHA0ddZ2Ep7k6CqvizbqWp2dkPZVWDyA7L8-YAaAvogEALw_wcB)
 |Unit|Value|
 |:---:|:---|
 |Wei|1000000000000000000|
