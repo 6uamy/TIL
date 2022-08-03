@@ -114,7 +114,7 @@ function send(address receiver, uint amount) public {
 
 ### Solidity의 전역 변수
 |name|returns|
-|:---:|---:|
+|:---:|:---:|
 |blockhash|Hash of the given block|
 |block.coinbase (address payable)|Current block miner's address|
 |block.difficulty|Current block difficulty|
@@ -130,9 +130,9 @@ function send(address receiver, uint amount) public {
 |tx.gasprice|Gas price of the transaction|
 |tx.origin|Sender of the transaction|
 
-### Ether Converter
+### Ether Converter [참고링크](https://www.eth-to-wei.com/?gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3mESg7wimLohoFF6dHA0ddZ2Ep7k6CqvizbqWp2dkPZVWDyA7L8-YAaAvogEALw_wcB)
 |Unit|Value|
-|:---:|:---:|
+|:---:|:---|
 |Wei|1000000000000000000|
 |Gwei|1000000000|
 |Ether|1|
