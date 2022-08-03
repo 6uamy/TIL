@@ -132,6 +132,7 @@ function send(address receiver, uint amount) public {
 
 ### Ether Converter
 
+|:---:|:---:|
 |Wei|1000000000000000000|
 |Gwei|1000000000|
 |Ether|1|
