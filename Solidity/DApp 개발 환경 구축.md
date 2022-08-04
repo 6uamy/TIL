@@ -16,13 +16,13 @@
 ## 메타마스크와 가나슈 연결하기
 
 1. 메타마스크에 가나슈를 설정하기 위해 네트워크 추가화면으로 이동
-<img src= "https://user-images.githubusercontent.com/79950091/182310463-e1756954-cab8-42d2-b0ee-fcf76d23d8a2.png" width="500" height="500">       
+<img src= "https://user-images.githubusercontent.com/79950091/182310463-e1756954-cab8-42d2-b0ee-fcf76d23d8a2.png" width="400" height="400">       
 
 2. 아래와 같이 가나슈 네트워크 추가에 필요한 정보 입력
-<img src= "https://user-images.githubusercontent.com/79950091/182309881-6a8001e6-0a2b-4bf0-94b8-0800d3849792.png" width="500" height="500">       
+<img src= "https://user-images.githubusercontent.com/79950091/182309881-6a8001e6-0a2b-4bf0-94b8-0800d3849792.png" width="400" height="400">       
 
 3. 아래와 같은 화면이 보이면 연결에 성공
-<img src= "https://user-images.githubusercontent.com/79950091/182310037-759685ce-6ab2-45f0-8209-b4943990d706.png" width="500" height="500">
+<img src= "https://user-images.githubusercontent.com/79950091/182310037-759685ce-6ab2-45f0-8209-b4943990d706.png" width="400" height="400">
 
 ## Node.js > [설치경로](https://nodejs.org/ko/)
 
