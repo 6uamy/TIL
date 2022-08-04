@@ -93,9 +93,9 @@ event Sent(address from, address to, uint amount);
 emit Sent(msg.sender, receiver, amount);
 ```
 * event: 거래자가 데이터를 얻도록 하는 이벤트를 방출한다.
-      * 이벤트는 Solidity에 저장되지 않기 때문에 나중에 엑세스할 수 없다.
-      * one-way전송이기에 가스비도 더 저렴하다.
-      * memory로 저장되지 않기에 가스비가 더 저렴하다.
+  * 이벤트는 Solidity에 저장되지 않기 때문에 나중에 엑세스할 수 없다.
+  * one-way전송이기에 가스비도 더 저렴하다.
+  * memory로 저장되지 않기에 가스비가 더 저렴하다.
 * emit: 생성한 해당 이벤트를 발생시키기 위한 키워드
 ### error, revert
 ```solidity
