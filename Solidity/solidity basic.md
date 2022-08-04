@@ -89,14 +89,26 @@ address wallet = 0x212...;
 
 ### event, emit
 ```solidity
-event Sent(address from, address to, uint amount);
-emit Sent(msg.sender, receiver, amount);
+event NewTrade(
+            uint indexed date;
+            address from;
+            address indexed to;
+            uint indexed amount;
+      )
+function trade(address to, uint amount) external {
+      // 외부자는 web3.js를 통해 이벤트 내용을 볼 수 있다.
+      emit NewTrade(block.timestamp, to, amount);
+}
 ```
 * event: 거래자가 데이터를 얻도록 하는 이벤트를 방출한다.
+  * 이벤트 이름은 대문자로 시작해야 한다. 
   * 이벤트는 Solidity에 저장되지 않기 때문에 나중에 엑세스할 수 없다.
   * one-way전송이기에 가스비도 더 저렴하다.
   * memory로 저장되지 않기에 가스비가 더 저렴하다.
 * emit: 생성한 해당 이벤트를 발생시키기 위한 키워드
+* indexed: 외부자가 인덱스로 필터링하여 필요한 정보를 찾을 수 있다.
+  * 인덱스를 달아 놓으면 가스비가 높게 설정된다.
+  * 이벤트당 최대 세 개만 사용한다. 
 ### error, revert
 ```solidity
 error insufficientBalance(uint requested, uint available);
