@@ -87,7 +87,7 @@ address wallet = 0x212...;
 ```
 * address: Solidity에서 주소는 20byte 형식의 변수 타입이다.(ex. 이더리움 주소의 크기)
 
-### event, emit
+### event, emit, indexed
 ```solidity
 event NewTrade(
             uint indexed date;
@@ -108,7 +108,7 @@ function trade(address to, uint amount) external {
 * emit: 생성한 해당 이벤트를 발생시키기 위한 키워드
 * indexed: 외부자가 인덱스로 필터링하여 필요한 정보를 찾을 수 있다.
   * 인덱스를 달아 놓으면 가스비가 높게 설정된다.
-  * 이벤트당 최대 세 개만 사용한다. 
+  * 이벤트당 최대 3개만 사용한다. 
 ### error, revert
 ```solidity
 error insufficientBalance(uint requested, uint available);
