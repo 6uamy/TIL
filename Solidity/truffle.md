@@ -10,26 +10,26 @@
 * Truffle 환경 내에서 script를 실행하는 외부 script 실행기
 
 ### 🗒️ 트러플 설치 ``` npm install -g truffle ```
-***
 
 ### 🗒️ 트러플 버전 확인 ``` truffle version ```
 
 ### 🗒️ 트러플 프로젝트 생성  ``` truffle init ```
+***
 * contracts/ : Solidity 계약 경로
 * migrations/ : 스크립팅 가능한 배포 파일 경로
 * test/ : App, contracts를 테스트하기 위한 테스트 파일 경로
 * truffle.js : 트러플 구성 파일
 
 ### 🗒️ 게약 컴파일 ``` truffle compile ```
-
+***
 #### 변경된 계약에 대한 컴파일을 진행한다.
  
 ### 🗒️ 마이그레이션 (migration) ``` truffle migrate (--reset) ```
-
+***
 #### 배포가능한 스크립트들을 migration 해준다. ``` --reset ``` 을 사용하여 처음부터 <br>모든 마이그레이션을 실행할 수 있다.
 
 ### 🗒️ Truffle Console ``` truffle console ```
-
+***
 #### 모든 이더리움 클라이언트에 연결하는 기본 양방향 Console
 
 #### Truffle Console을 사용하는 이유
@@ -38,7 +38,7 @@
 * 특정 니모닉 또는 계정 목록을 사용하려는 경우
 
 ### 🗒️ Truffle Develop ``` truffle develop ```
-
+***
 #### 개발 블록체인도 생성하는 양방향 Console
 
 #### Truffle Develop을 사용하는 이유
@@ -47,12 +47,12 @@
 * 별도의 블록체인 클라이언트를 설치 및 관리하고 싶지 않을 경우
 
 ### 🗒️ artifacts.require('contracts name')
-
+***
 #### 상호 작용할 계약을 Truffle에 알리고 마이그레이션을 시작한다.
 #### ``` 'contracts name' ``` 은 해당 소스 파일 내의 계약 이름과 일치해야 한다.
 
 ### 🗒️ 외부 스크립트 실행 ``` truffle exec <path/to/file.js> ```
-
+***
 #### 계약과 상호 작용하는 외부 스크립트를 실행할 수 있다.
 #### 외부 스크립트가 올바르게 실행되기 위해서는 콜백 함수를 작성해주어야 한다.
 ``` JavaScript
