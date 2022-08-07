@@ -27,11 +27,6 @@
 
 #### 배포가능한 스크립트들을 migration 해준다. ``` --reset ``` 을 사용하여 처음부터 <br>모든 마이그레이션을 실행할 수 있다.
 
-### 🗒️ artifacts.require('contracts name')
-
-#### 상호 작용할 계약을 Truffle에 알리고 마이그레이션을 시작한다.
-#### ``` 'contracts name' ``` 은 해당 소스 파일 내의 계약 이름과 일치해야 한다.
-
 ### 🗒️ Truffle Console ``` truffle console ```
 
 #### 모든 이더리움 클라이언트에 연결하는 기본 양방향 Console
@@ -49,3 +44,21 @@
 * 즉시 배포하지 않고 프로젝트 테스트만을 진행할 경우
 * 특정 계정으로 작업할 필요가 없을 경우
 * 별도의 블록체인 클라이언트를 설치 및 관리하고 싶지 않을 경우
+
+### 🗒️ artifacts.require('contracts name')
+
+#### 상호 작용할 계약을 Truffle에 알리고 마이그레이션을 시작한다.
+#### ``` 'contracts name' ``` 은 해당 소스 파일 내의 계약 이름과 일치해야 한다.
+
+### 🗒️ 외부 스크립트 실행 ``` truffle exec <path/to/file.js> ```
+
+#### 계약과 상호 작용하는 외부 스크립트를 실행할 수 있다.
+#### 외부 스크립트가 올바르게 실행되기 위해서는 콜백 함수를 작성해주어야 한다.
+``` JavaScript
+module.exports = function(callback) {
+  // TODO: implement your actions
+
+  // invoke callback
+  callback();
+}
+```
