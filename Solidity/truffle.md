@@ -26,3 +26,8 @@
 ## 마이그레이션 (migration) ``` truffle migrate (--reset) ```
 
 #### 배포가능한 스크립트들을 migration 해준다. ``` --reset ``` 을 사용하여 처음부터 <br>모든 마이그레이션을 실행할 수 있다.
+
+## artifacts.require('contracts name')
+
+#### 상호 작용할 계약을 Truffle에 알리고 마이그레이션을 시작한다.
+#### ``` 'contracts name' ``` 은 해당 소스 파일 내의 계약 이름과 일치해야 한다.
