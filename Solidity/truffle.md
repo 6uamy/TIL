@@ -46,6 +46,31 @@
 * 특정 계정으로 작업할 필요가 없을 경우
 * 별도의 블록체인 클라이언트를 설치 및 관리하고 싶지 않을 경우
 
+#### 기본적으로 로컬 port:9545로 개발 블록체인을 생성한다.
+#### 아래와 같이 ganache와 같은 구성 가능한 네트워크를 설정 하여 연결할 수 있다.
+``` javascript
+module.exports = {
+  networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "*" // Match any network id
+    },
+  },
+  contracts_directory: './src/contracts/',
+  contracts_build_directory: './src/truffle_abis/',
+  compilers: {
+    solc: {
+      version: '^0.5.0',
+      optimizer: {
+        enabled: true,
+        runs: 200
+      },
+    }
+  }
+}
+```
+
 ### 🗒️ artifacts.require('contracts name')
 ***
 #### 상호 작용할 계약을 Truffle에 알리고 마이그레이션을 시작한다.
