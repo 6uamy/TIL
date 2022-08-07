@@ -48,7 +48,7 @@
 
 #### 기본적으로 로컬 port:9545로 개발 블록체인을 생성한다.
 #### 아래와 같이 ganache와 같은 구성 가능한 네트워크를 설정 하여 연결할 수 있다.
-``` javascript
+``` JavaScript
 module.exports = {
   networks: {
     development: {
