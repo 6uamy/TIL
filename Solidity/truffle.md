@@ -8,21 +8,15 @@
 * build pipeline
 * Truffle 환경 내에서 script를 실행하는 외부 script 실행기
 
-### 트러플 설치
+### 트러플 설치 ``` npm install -g truffle ```
 
-#### ``` npm install -g truffle ```
-
-### 트러플 프로젝트 생성 
-
-#### ``` truffle init ```
+### 트러플 프로젝트 생성  ``` truffle init ```
 * contracts/ : Solidity 계약 경로
 * migrations/ : 스크립팅 가능한 배포 파일 경로
 * test/ : App, contracts를 테스트하기 위한 테스트 파일 경로
 * truffle.js : 트러플 구성 파일
 
-### 게약 컴파일
-
-#### ``` truffle compile ```
+### 게약 컴파일 ``` truffle compile ```
 #### 변경된 계약에 대한 컴파일을 진행한다.
 
 
