@@ -21,11 +21,12 @@ root.render(<h1>Hello, world!</h1>);
   - 리액트는 데이터의 흐름이 한 방향으로만 흐리기 때문에 부모의 데이터를 바꾸기 위해서는 state를 이용해야 한다.
     * 보통 props라 불리는 속성들은 부모 컴포넌트로부터 컴포넌트에 전달된다. 
     * 컴포넌트들은 props을 하나의 불변의 값들로 받는다.
-4. Stateful 컴포넌트 > state는 변경 사항을 추적할 때 사용하고, App을 동적으로 만들 수 있게 해준다.
-5. 가상 DOM
-    * 가상의 Document Object Mode로 실제 DOM을 조작하는게 아닌, DOM을 추상화 한 <br>JavaScript 객체를 구상해 사용한다.
-7. 라이프사이클 메서드
-8. JSX
+3. Stateful 컴포넌트 
+    * state는 변경 사항을 추적할 때 사용하고, App을 동적으로 만들 수 있게 해준다.
+4. 가상 DOM
+    * 가상의 Document Object Mode로 실제 DOM을 조작하는게 아닌, DOM을 추상화 한 JavaScript 객체를 구상해 사용한다.
+5. 라이프사이클 메서드
+6. JSX
     - JSX는 자바스크립트와 HTML을 동시에 사용하며, HTML에 자바스크립트의 변수들을 바로 사용할 수 있는 일종의 템플릿 언어이다.
      
 ``` JavaScript
