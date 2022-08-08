@@ -7,8 +7,19 @@
 ### React 기본 예시
 
 ```JavaScript
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<h1>Hello, world!</h1>);
+import React, {Component} from 'react';
+
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <h>Hello, world!</h>
+            </div>
+        )
+    }
+}
+
+export default App;
 ```
 * 페이지에서 'Hello, world!'라는 제목이 표시된다.
 
