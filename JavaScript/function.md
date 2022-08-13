@@ -64,7 +64,7 @@ function sayHi(){
      console.log('Hi');
 };
 
-
+// 화살표 
 let sayHi = () => {console.log('Hi')};
 ```
 
