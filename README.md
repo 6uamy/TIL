@@ -11,6 +11,7 @@
 - [operators](https://github.com/6uamy/TIL/blob/main/JavaScript/operators.md)
 - [condition, loop, switch](https://github.com/6uamy/TIL/blob/main/JavaScript/if,%20loop%20and%20switch.md)
 - [function](https://github.com/6uamy/TIL/blob/main/JavaScript/function.md)
+- [object, array](https://github.com/6uamy/TIL/blob/main/JavaScript/object%2C%20array.md)
 
 ### 🔗 React
 - [리액트의 기초](https://github.com/6uamy/TIL/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/react%20study.md)
