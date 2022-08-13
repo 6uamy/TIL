@@ -17,3 +17,18 @@ const man = {
     * man['hairColor'] = 'black';
 * 삭제
     * delete man.hairColor;
+
+#### method 
+* Object property로 할당 된 함수
+
+```javascript
+const man = {
+  name : 'Taek',
+  age : 26,
+  work() { // method
+    console.log('출근 중..'); 
+  }
+}
+```
+
+#### this
