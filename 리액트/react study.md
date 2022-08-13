@@ -4,7 +4,7 @@
 * 'Components'라고 하는 작은 코드 조각에서 복잡한 UI를 구성할 수 있다.
 * 리액트를 이용하면 사용자와 상호작용할 수 있는 UI를 손쉽게 만들 수 있다.
 
-### React 기본 예시
+### 📑 React 기본 예시
 
 ```JavaScript
 import React, {Component} from 'react';
@@ -23,7 +23,7 @@ export default App;
 ```
 * 페이지에서 'Hello, world!'라는 제목이 표시된다.
 
-### 리액트의 대표적인 특징
+### 📑 리액트의 대표적인 특징
 
 1. Components 기반의 라이브러리
     * 헤더, 메인, 버튼, 사이드바 메뉴 같은 것들을 컴포넌트 단위로 묶어 관리할 수 있다.
