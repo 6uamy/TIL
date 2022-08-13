@@ -55,6 +55,7 @@ sayHi();
 * const arrow = (params1, params2 ...) => return 할 logic
 * 기존의 함수를 보다 간결하게 작성이 가능하다.
 * 항상 이름이 없는 anonymous function 이다.
+* 화살표 함수는 일반 함수와는 달리 자신만의 'this'를 가지지 않는다! <br>=> 화살표 함수 내부에서 'this'를 사용하면, 그 this는 외부에서 값을 가져온다.
 
 ##### 예시1
 
