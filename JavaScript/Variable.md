@@ -49,3 +49,16 @@ console.log(typeof true); // boolean
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
 ```
+
+### __📑 형변환__
+
+```javascirpt
+Srting(10) // "10"
+
+Number('1234') // 1234  문자형이 들어갈 경우 NaN
+Number('true or false') // true는 1을 false는 0으로 형변환이 된다.
+Number(null) // 0
+Number(undefined) // NaN
+
+Boolean() // 0, "", null, undefined, NaN과 같은 부정적인 형태는 false로 변환된다.
+```
