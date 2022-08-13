@@ -1,5 +1,7 @@
 ### 📑 Object
 
+#### Object 기본 형식
+
 ```javascript
 const man = {
   name : 'Taek',
