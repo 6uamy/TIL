@@ -40,3 +40,43 @@ const result = add(2, 3); // result = 5
 #### 함수 표현식
 
 * JavaScript가 코드를 한 줄씩 읽으면서 실행되기 때문에 코드에 도달하면 생성된다.<br>=> 생성된 이후에만 함수 사용이 가능하다.
+* 보통 더 자유롭게 쓸 수 있는 함수 선언식을 사용한다.
+
+```javascirpt
+let sayHi = function(){
+     console.log('Hi');
+}
+
+sayHi();
+```
+
+#### 화살표 함수(arrow function)
+
+* const arrow = (params1, params2 ...) => return 할 logic
+* 기존의 함수를 보다 간결하게 작성이 가능하다.
+* 항상 이름이 없는 anonymous function 이다.
+
+##### 예시1
+
+```javascirpt
+// 기존 함수 선언문
+function sayHi(){
+     console.log('Hi');
+}
+
+// 화살표 함수
+let sayHi = () => {console.log('Hi')};
+```
+
+##### 예시1
+
+```javascirpt
+// 기존 함수 표현식
+const add = function (num1, num2) {
+     const result = num1 + num2;
+     return result;
+};
+
+// 화살표 함수
+const add = (num1, num2) => num1 + num2;
+```
