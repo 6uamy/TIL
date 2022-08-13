@@ -63,8 +63,3 @@ console.log(10 != 5); // true
     * 첫 번째 true를 발견하는 즉시 평가를 멈춘다.
 * !(NOT) 3가지의 논리 연산자가 존재한다.
     * true면 false, false면 true를 반환한다.
-    
-
-
-
-
