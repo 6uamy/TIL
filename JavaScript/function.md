@@ -60,6 +60,7 @@ sayHi();
 
 ```javascirpt
 // 기존 함수 선언문
+
 function sayHi(){
      console.log('Hi');
 }
