@@ -38,3 +38,14 @@ console.log(6 % 4); // 나머지 6 % 4 = 2
 const a = true; // 참
 const b = false; // 거짓
 ```
+
+* typeof 연산자
+   * 변수의 자료형을 알 수 있다.
+
+```javascript
+console.log(typeof 2); // number
+console.log(typeof 'hi'); // string
+console.log(typeof true); // boolean
+console.log(typeof null); // object
+console.log(typeof undefined); // undefined
+```
