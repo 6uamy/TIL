@@ -1,22 +1,22 @@
-### 주석 작성 
+### __📑 주석 작성__ 
 ```solidity 
 // this is our code goes
 ```  
 
-### Solidity의 버전 정의
+###  __📑 Solidity의 버전 정의__
 ```solidity 
 pragma solidity ^version; 
 pragma solidity >(=)version <(=)version;
 ```
 
-### 스마트계약의 정의
+###  __📑 스마트계약의 정의__
 ```solidity 
 contract contractName {
       // write all the code inside here - functions and its state
 }
 ```
 
-### Type변수 선언
+###  __📑 Type변수 선언__
 ```solidity 
 uint storeData = number;
 string names = 'string message';
@@ -25,7 +25,7 @@ bool switchON = true/false;
 ....
 ```
 
-### 함수 선언
+###  __📑 함수 선언__
 ```solidity 
 contract contractName {
       // write all the code inside here - functions and its state
@@ -47,7 +47,7 @@ contract contractName {
 * private: 계약 내부에서만 함수 호출이 가능하다.
 * view: 함수의 상태를 수정할 수 없다는 것을 알리는 전역 제어자(Global Modifier)이다.
 
-### constructor 함수 선언
+###  __📑 constructor 함수 선언__
 ```solidity
 constructor() payable public {
 
@@ -57,7 +57,7 @@ constructor() payable public {
 * constructor: 계약 생성 단계에서만 실행되고, 생성자가 없으면 계약은 계약 자체를 기본 생성자로 인식한다.
 * payable: 이더(eth)를 주고 받기 위해 사용된다. 
 
-### 제어자(modifier) 선언
+###  __📑 제어자(modifier) 선언__
 ```solidity
 modifier onlyOwner {
         require(msg.sender == owner);
@@ -68,12 +68,12 @@ modifier onlyOwner {
 * require: Solidity에서 사용되는 조건문같은 형식으로 require조건이 만족되어야 함수가 실행된다.
 * _; : modifier를 통해 만족된 함수를 계속해서 실행한다.(해당함수에 대한 제어 가능)
 
-### 배열 리스트 선언
+###  __📑 배열 리스트 선언__
 ```solidity
 address payable[] familyWallets;
 ```
 
-### mapping 선언
+###  __📑 mapping 선언__
 ```solidity
 mapping(_KeyType => _ValueType);
 
@@ -81,13 +81,13 @@ mapping(address => uint) inheritance;
 ```
 * mapping: 값이 key-value 쌍으로 구성된 해시 테이블을 생성한다.
 
-### address
+###  __📑 address__
 ```solidity
 address wallet = 0x212...;
 ```
 * address: Solidity에서 주소는 20byte 형식의 변수 타입이다.(ex. 이더리움 주소의 크기)
 
-### event, emit, indexed
+###  __📑 event, emit, indexed__
 ```solidity
 event NewTrade(
             uint indexed date;
@@ -109,7 +109,7 @@ function trade(address to, uint amount) external {
 * indexed: 외부자가 인덱스로 필터링하여 필요한 정보를 찾을 수 있다.
   * 인덱스를 달아 놓으면 가스비가 높게 설정된다.
   * 이벤트당 최대 3개만 사용한다. 
-### error, revert
+###  __📑 error, revert__
 ```solidity
 error insufficientBalance(uint requested, uint available);
 
@@ -127,7 +127,7 @@ function send(address receiver, uint amount) public {
 * revert: 조건문이 참일시 해당 함수에 대한 트랜잭션이 발생하지 않도록 해주고 revert 키워드에 대한 오류 메세지를 전달한다.
 
 
-### Solidity의 전역 변수
+###  __📑 Solidity의 전역 변수__
 |name|returns|
 |:---:|:---:|
 |blockhash|Hash of the given block|
@@ -145,7 +145,7 @@ function send(address receiver, uint amount) public {
 |tx.gasprice|Gas price of the transaction|
 |tx.origin|Sender of the transaction|
 
-### Ether Converter > [참고링크](https://www.eth-to-wei.com/?gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3mESg7wimLohoFF6dHA0ddZ2Ep7k6CqvizbqWp2dkPZVWDyA7L8-YAaAvogEALw_wcB)
+###  __📑 Ether Converter > [참고링크](https://www.eth-to-wei.com/?gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3mESg7wimLohoFF6dHA0ddZ2Ep7k6CqvizbqWp2dkPZVWDyA7L8-YAaAvogEALw_wcB)__
 |Unit|Value|
 |:---:|:---|
 |Wei|1000000000000000000|
