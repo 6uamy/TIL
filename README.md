@@ -7,7 +7,7 @@
 
 ### 🔗 JavaScript
 - [Variable, Data type](https://github.com/6uamy/TIL/blob/main/JavaScript/Variable.md)
-- [alert, prompt, confirm](https://github.com/6uamy/TIL/blob/main/JavaScript/Variable.md)
+- [alert, prompt, confirm](https://github.com/6uamy/TIL/blob/main/JavaScript/interactive.md)
 
 ### 🔗 React
 - [리액트의 기초](https://github.com/6uamy/TIL/blob/main/%EB%A6%AC%EC%95%A1%ED%8A%B8/react%20study.md)
