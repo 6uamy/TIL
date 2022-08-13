@@ -59,17 +59,17 @@ sayHi();
 ##### 예시1
 
 ```javascirpt
-// 기존 함수 선언문
+
 
 function sayHi(){
      console.log('Hi');
 }
 
-// 화살표 함수
+
 let sayHi = () => {console.log('Hi')};
 ```
 
-##### 예시1
+##### 예시2
 
 ```javascirpt
 // 기존 함수 표현식
