@@ -89,3 +89,15 @@ students.pop()
 console.log(students) // ['hee', 'zen']
 ``` 
 
+#### map
+
+* 배열을 값을 재정의 할 때 사용한다.
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+const result = arr.map(x => x * 2);
+
+console.log(result);
+// [2, 4, 6, 8, 10];
+```
+
