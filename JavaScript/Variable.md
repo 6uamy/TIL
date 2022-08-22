@@ -63,7 +63,7 @@ Number(undefined) // NaN
 Boolean() // 0, "", null, undefined, NaN과 같은 부정적인 형태는 false로 변환된다.
 ```
 
-### __📑 String to AScii__
+### __📑 String to ASCII__
 
 ```javascript
 String.charCodeAt([문자열 자릿수]);
