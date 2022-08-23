@@ -30,6 +30,8 @@
 * var: 함수 스코프(function-scoped)
 * let, const: 블록 스코프(block-scoped) => 함수, if, for, try~catch ...
 
+🏷️ ES6로 넘어오면서 예측가능한 결과를 내고 버그를 줄이기 위해 let, const를 지양하자!
+
 ### __📑 Date type__
 
 ```javascript
