@@ -32,6 +32,29 @@ const man = {
 }
 ```
 
+### 📑 생성자 함수
+
+* 반복되는 객체를 여러번 반복하지 않고 생성하기 용이하게 하도록 할 때 사용한다.
+* 함수명은 관례적으로 대문자를 사용한다.
+
+```javascript
+function User(name, age) {
+  // this = {}
+  
+  this.name = name;
+  this.age = age;
+  this.userName = function() {
+    console.log(this.name); 
+  }
+  
+  // return this;
+}
+
+new 함수명(); // new 키워드를 통한 함수 객체를 생성해야 한다.
+```
+
+
+
 #### this
 
 * 자신이 속한 객체 또는 자신이 생성할 인스턴스를 가리키는 자기 참조 변수이다.
