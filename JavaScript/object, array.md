@@ -20,7 +20,18 @@ const man = {
 
 #### method 
 
-* Object property로 할당 된 함수
+* Computed property: 계산된 형태의 프로퍼티
+
+```javascript
+const user = {
+    [1 + 4] : 5,
+    ['안녕' + '하세요'] : 'Hello'
+}
+
+user > {5: 5, 안녕하세요: 'Hello'}
+```
+
+* Object property: 객체 형태의 프로퍼티
 
 ```javascript
 const man = {
@@ -31,7 +42,10 @@ const man = {
   }
 }
 ```
-
+  
+    *Object.assign(): 객체 복제
+    
+    
 ### 📑 생성자 함수
 
 * 반복되는 객체를 여러번 반복하지 않고 생성하기 용이하게 하도록 할 때 사용한다.
