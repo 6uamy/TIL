@@ -119,7 +119,7 @@ students.unshift('one')
 console.log(students) // ['one', 'hee', 'zen']
 
 // 제거
-students.pop()
+students.shift()
 console.log(students) // ['hee', 'zen']
 ``` 
 
