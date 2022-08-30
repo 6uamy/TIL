@@ -143,3 +143,14 @@ console.log(result);
 arr.join(구분자); // " ", "," ...
 ```
 
+#### Symbol()
+
+* 유일한 식별자를 생성하기 위해 사용한다.
+* 유일성이 보장된다.
+
+
+```javascript
+const id = Symbol('id');
+const id2 = Symbol('id');
+```
+
