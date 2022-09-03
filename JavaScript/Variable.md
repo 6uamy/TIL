@@ -87,3 +87,21 @@ Boolean() // 0, "", null, undefined, NaN과 같은 부정적인 형태는 false�
 ```javascript
 String.charCodeAt([문자열 자릿수]);
 ```
+
+### __📑 toUpperCase() / toLowerCase()__
+
+* 문자를 대소문자로 변환할 때 사용한다.
+
+### __📑 str.indexOf(text)__
+
+* 해당 문자의 위치를 반환하여 준다.
+* 해당 문자가 없을 시 -1을 반환한다.
+
+### __📑 str.slice(n, m)__
+
+* 특정 문자의 범위만을 반환한다.
+* n: 시작점, m: 없으면 문자열 끝, 양수면 그 숫자 전까지, 음수면 끝에서 부터 시작
+
+### __📑 str.trim()__
+
+* 문자열의 앞 뒤 공백을 제거하여준다.
