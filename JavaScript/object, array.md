@@ -123,6 +123,16 @@ students.shift()
 console.log(students) // ['hee', 'zen']
 ``` 
 
+#### splice(n, m)
+
+* 배열의 특정 요소를 지운다.
+* n: 시작, m: 개수
+* 삭제된 요소를 반환할 때 사용할 수도 있다.
+
+#### concat(arr2, arr3)
+
+* 두 문자열을 합쳐준다.
+
 #### map
 
 * 배열을 값을 재정의 할 때 사용한다.
@@ -152,5 +162,18 @@ arr.join(구분자); // " ", "," ...
 ```javascript
 const id = Symbol('id');
 const id2 = Symbol('id');
+```
+
+#### forEach(fn)
+
+* 배열을 반복하여 나타낼 경우에 사용한다.
+* item: 요소, index: 0, 1, 2...
+
+```javascript
+let users = ['Mike', 'Tom', 'Jimmy'];
+
+users.forEach((item, index, arr) => {
+    // fn code here
+});
 ```
 
