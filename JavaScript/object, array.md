@@ -177,3 +177,12 @@ users.forEach((item, index, arr) => {
 });
 ```
 
+#### indexOf()
+
+* 해당 요소의 index를 반환하고 없으면 -1을 반환한다.
+
+#### includes()
+
+* 해당 요소를 포함하는지 여부를 확인할 경우 사용한다.
+* true / false 를 반환한다.
+
