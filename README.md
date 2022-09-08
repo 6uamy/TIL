@@ -27,4 +27,4 @@
 
 ### 🔗 ML Class
 
-- [1Week](https://github.com/6uamy/TIL/blob/main/Solidity/solidity%20study.md)
+- [1Week](https://github.com/6uamy/TIL/blob/main/ML/1day.md)
