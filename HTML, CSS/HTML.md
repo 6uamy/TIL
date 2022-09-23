@@ -20,7 +20,7 @@
 ```html
 <html>
   <head>
-    문서를 정의하는 데이터가 위치
+    <title>웹 페이지의 제목</title>
   </head>
   <body>
     문서에 표시되는 컨텐츠가 위치
@@ -89,5 +89,4 @@
 - 부모 자식 관계를 가지고 있는 리스트 태그가 항상 존재한다.
 - ol: Ordered List
 - ul: Unordered list  
-
 
