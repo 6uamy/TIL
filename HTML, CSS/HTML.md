@@ -1,4 +1,4 @@
-## 🗒️ HTML(HyperText Markup Language)?
+## 🖥️ HTML(HyperText Markup Language)?
 
 ### 웹 페이지 표시를 위해 개발된 지배적인 마크업 언어다.
 
@@ -32,7 +32,13 @@
 - 문서에서 문서로 이동하는 수단이다.
 - a(anchor)를 사용한다.
 - 같은 문서 내에서도 특정한 위치로 이동이 가능하다.
+    - #summaryName: 해당 id의 위치로 컨택스트가 이동한다. 
 - target을 지정하여 문서가 로드될 위치를 지정할 수 있다.(<u>_blank</u>, <u>_self</u>, <u>_parent</u>, <u>_top</u>, framename)
-    - target('<u>_blank</u>'): 새 창에 페이지가 열린다.(현재의 페이지를 유지가능)
-    - target('<u>_self</u>'): 현재 창에 페이지가 열린다.
+    - target('<u>_blank</u>'): 새 창에 문서가 열린다. (현재의 페이지를 유지가능)
+    - target('<u>_self</u>'): 현재 창에 문서가 열린다.
 
+
+### 🗒️ 문단 <p>문단<p>
+
+
+### 🗒️ 줄 바꿈 <br />
