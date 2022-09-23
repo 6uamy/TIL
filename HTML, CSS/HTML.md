@@ -87,7 +87,7 @@
 ```
 
 - 부모 자식 관계를 가지고 있는 리스트 태그가 항상 존재한다.
-- <ol>: Ordered List
-- <ul>: Unordered list  
+- ol: Ordered List
+- ul: Unordered list  
 
 
