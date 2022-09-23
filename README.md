@@ -4,6 +4,9 @@
 ### 🔗 BOJ Algorithm
 - [basic](https://github.com/6uamy/BOJ/tree/main/basic)
 
+### 🔗 HTML, CSS
+- [HTML](https://github.com/6uamy/TIL/blob/main/HTML%2C%20CSS/HTML.md)
+
 ### 🔗 JavaScript
 - [Variable, Data type](https://github.com/6uamy/TIL/blob/main/JavaScript/Variable.md)
 - [alert, prompt, confirm](https://github.com/6uamy/TIL/blob/main/JavaScript/interactive.md)
