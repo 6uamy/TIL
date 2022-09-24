@@ -17,3 +17,19 @@
 - 태그: 태그명
 
 - 스타일 태그 내에서 태그끼리의 선택자 우선 순위는 html 문서 내에 가장 하단, body 태그 내에서 가까운 선택자이다.
+
+#### 🗒️ 박스 모델
+
+- 화면전체 block level element
+- 자기구역 inline level element
+- 폭은 width, 높이는 hight
+- 테두리와 글자 사이간격 padding
+- 테두리와 테두리사이 margin
+
+#### 🗒️ 그리드
+
+- div: 어떤 의미도 존재하지 않는 태그, block level element
+- span: 어떤 의미도 존재하지 않는 태그, inline element
+- grid의 사용
+    - display:grid;
+    - grid-template-columns: 150px 1fr (fr 화면의 크기에 따른 비율로 조정된다. columns:열, rows:행)
