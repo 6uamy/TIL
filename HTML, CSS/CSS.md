@@ -33,3 +33,16 @@
 - grid의 사용
     - display:grid;
     - grid-template-columns: 150px 1fr (fr 화면의 크기에 따른 비율로 조정된다. columns:열, rows:행)
+
+#### 🗒️ 미디어쿼리
+
+- 미디어 쿼리를 사용하여 반응에 따라 움직이는 웹 사이트 구현이 가능하다.
+
+```html
+// 800px 보다 웹 페이지가 커질 시 해당 디스플레이를 none으로 바꿔준다.
+@media(min-width:800px){ 
+            div {
+                display: none;
+            }
+        }
+```
