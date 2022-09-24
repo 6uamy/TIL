@@ -6,6 +6,7 @@
 
 ### 🔗 HTML, CSS
 - [HTML](https://github.com/6uamy/TIL/blob/main/HTML%2C%20CSS/HTML.md)
+- [CSS](https://github.com/6uamy/TIL/blob/main/HTML,%20CSS/CSS.md)
 
 ### 🔗 JavaScript
 - [Variable, Data type](https://github.com/6uamy/TIL/blob/main/JavaScript/Variable.md)
