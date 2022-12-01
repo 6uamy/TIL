@@ -20,7 +20,7 @@
 - [function](https://github.com/6uamy/TIL/blob/main/JavaScript/function.md)
 - [object, array](https://github.com/6uamy/TIL/blob/main/JavaScript/object%2C%20array.md)
 - [Vanilla JavaScript](https://github.com/6uamy/Vanilla_JS)
-- [](https://github.com/6uamy/Javascript-Deep-Dive-Study)
+- [Javascript Deep Dive Study](https://github.com/6uamy/Javascript-Deep-Dive-Study)
 
 ### 🔗 React
 
